@@ -139,18 +139,31 @@ body:after {
 }
 
  /* footer 1*/
- .footer1{
-  background-color: #ffca28;
+ .footer{
   margin-top: 10%;
 }
 li{
   list-style: none;
 }
 .lista{
-  margin-right: 40%;
+  margin-right: 20%;  
+  color: rgb(73, 73, 73);
+  font-family: 'Oswald', sans-serif;
+}
+.lista1{
+  margin-right: 30%; 
+  color: rgb(0, 0, 0);
+  font-family: 'Oswald', sans-serif;
 }
 .fab{
   font-size: 300%;
+}
+.slogan{
+  width: 100%;
+  font-family: 'Oswald', sans-serif;
+  margin-left: 20%;
+  margin-right: 10%;
+  color: white;
 }
 
 @media (max-width: 850px) {
@@ -187,6 +200,22 @@ li{
     font-family: 'Oswald', sans-serif;
     font-size: 20%;
   }
+  .slogan{
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 20%;
+    margin-right: 10%;
+    color: white;
+    font-size: 80%;
+  }
+  .centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    font-size: 50%;
+  }
 }
 
 /*service*/
@@ -206,7 +235,7 @@ li{
 }
 .texto1-5{
   margin-top: 0%;
-  margin-right: 30%;
+  margin-right: 15%;
   text-align: center;
   font-family: 'Oswald', sans-serif;
   font-size: 200%;
@@ -236,6 +265,10 @@ li{
   margin-top: 1%;
 }
 .fragmento{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.preambulo{
   margin-left: 10%;
   margin-right: 10%;
 }
